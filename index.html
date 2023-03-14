@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="shortcut icon" href="img/favicon.jpeg" type="image/x-icon"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+<body>
+<nav class="navbar">
+    <div class="brand-title">
+      <span class="logo">Project Portfolio</span> 
+    </div>
+</nav>
+<header>
+    <h2>Alexis Filippakopoulos</h2>
+    <p class="underText"></p>
+</header>
+<!-- <div class="projects"><h2>Projects</h2></div> -->
+<div class="project_div">
+  <h2 class="project_header1">Distributed Messaging Application</h2>
+  <p class="project_p">Implements the Publish/Subscribe design pattern. 
+    Clients can connect to one of the three servers available; to communicate, create group chats, upload and view stories and videos, make friends, etc. 
+    Additionally, it implements consistent hashing, an event-driven architecture among the server nodes and synchronous data replication resulting in a fault tolerant system.
+    Lastly, data storage takes place locally.<br><br>Developped with Java, Android Studio.
+</div>
+
+<div class="project_div">
+  <h2 class="project_header1">Invesigating the 1978 FIFA World Cup</h2>
+  <p class="project_p">Partly replicating <a href="https://doi:10.1017/S0003055422000958">Scharpf, A., Gläßel, C., Pearce, E. (2022) International Sports Events and Repression in Autocracies: Evidence from the 1978 FIFA World Cup.</a>, investigating the change in repression events as the tournament was closing in, under the argentinian jounta.<br><br>Developped with pandas, seaborn, statsmodels, ggplot, numpy, matplotlib, scipy.</p>
+</div>
+
+<div class="project_div">
+  <h2 class="project_header1">The Decline of Disruptive Science</h2>
+  <p class="project_p">Drawing inspiration from this <a href="https://www.nature.com/articles/s41586-022-05543-x">publication</a>, 
+    I attempt to predict <a href="http://russellfunk.org/cdindex/static/papers/funk_ms_2017.pdf">CD  index</a> (an index indicative of a paper's disruption) 
+    using an XGBooster and an instance of a <a href="https://doi.org/10.48550/arXiv.1810.04805">BERT</a> model for masked language modeling, 
+    using 1% of all CrossRef available publications that have abstracts, derived from the <a href="https://github.com/dspinellis/alexandria3k">alexandria3k</a> package.<br><br>Developped with pytorch, tensorflow, sklearn, pandas, sqlite, numpy.</p>
+</div>
+
+<div class="project_div">
+  <h2 class="project_header1">SpaceWars</h2>
+  <p class="project_p">A 90's inspired single player, survival, arcade game. Choose your spaceship, buckle up, dodge the meteorites, shoot the enemies and reach 5000 points; there someone special awaits! <br><br>Developped with C++.</p>
+</div>
+
+<div class="project_div">
+  <h2 class="project_header1">Researching Economic Connectedness</h2>
+  <p class="project_p">Partly replicating <a href="https://doi.org/10.1038/s41586-022-04996-4">Chetty, R., Jackson, M.O., Kuchler, T. et al. Social capital I: measurement and associations with economic mobility. Nature 608, 108–121 (2022)</a> and <a href="https://doi.org/10.1038/s41586-022-04997-3">Chetty, R., Jackson, M.O., Kuchler, T. et al. Social capital II: determinants of economic connectedness. Nature 608, 122–134 (2022)</a>. Investigating economic connectedness, socioeconomic status, economic mobility and their relationships.<br><br>Developped with pandas, seaborn, plotly, numpy, matplotlib.</p>
+</div>
+
+<div class="project_div">
+  <h2 class="project_header1">IMDB Classification</h2>
+  <p class="project_p">Implementing Naive Bayes and Logistic Regression algorithms from scratch in order to perform sentiment analysis on the IMDB dataset.<br><br>Developped with numpy.</p>
+</div>
+
+
+<div class="project_div">
+  <h2 class="project_header1">Motif Extraction and Sequential Mining</h2>
+  <p class="project_p">Searching for the most frequent trigrams in an artificial messages dataset. Using and comparing the count, term frequency and inverse document frequency metrics. Finally, we focus on the conversation's ending messages and recreate R's TraMineR figures.<br><br>Developped with pandas, sklearn, seaborn, matplotlib.</p>
+</div>
+
+<div class="project_div">
+  <h2 class="project_header1">Multithreaded Theater Ticket Reservation System</h2>
+  <p class="project_p">Prompts the input of the available cachiers and telephone operators, the theater is represented by an array, each client has to go through the operator and the cachier to reserve the tickets. Additionally certain time and transaction statistics are tracked.<br><br>Developped with C.</p>
+</div>
+
+<div class="project_div">
+  <h2 class="project_header1">Motion Detection System</h2>
+  <p class="project_p">A motion detection alarm system. Motion is detected by gaussian blurring, converting to grayscale and comparing the video frames.<br><br>Developped with opencv, imutils.</p>
+</div>
+
+<div class="project_div">
+  <h2 class="project_header1">Image Classificiation Problems</h2>
+  <p class="project_p">Face Mask Classification</p>
+  <p class="project_p">Weather Classification</p>
+  <p class="project_p">Dog Cat Classification</p>
+</div>
+<footer>
+  <ul>
+      <li>
+          <a href=""><i class="fb"></i></a>
+      </li>
+      <li>
+          <a href=""><i class="github"></i></a>
+      </li>
+      <li>
+          <a href=""><i class="mail"></i></a>
+      </li>
+  </ul>
+</footer>
+
+
+</body>
+<script src="https://kit.fontawesome.com/84588adc24.js" crossorigin="anonymous"></script>
+<script src="./js/projects.js"></script>
+</html>
